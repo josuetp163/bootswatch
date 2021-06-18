@@ -1,0 +1,27 @@
+/*import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+*{
+    font-family: 'Russo One', sans-serif;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url("wall.jpg");
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*
+@media only screen and (max-device-width: 1366px) {
+    .parallax {
+      background-attachment: scroll;
+    }
+  }*/
